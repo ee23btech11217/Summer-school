@@ -1,0 +1,37 @@
+[1.162s] Invoking command in '/home/mnepraj/ros2_ws/src/calculator_client': CMAKE_PREFIX_PATH=/home/mnepraj/ros2_ws/install/calculator_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mnepraj/ros2_ws/install/calculator_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/pkgconfig PYTHONPATH=/home/mnepraj/ros2_ws/build/calculator_client/prefix_override:/home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_server/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/sensor_data_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages ROS_PACKAGE_PATH=/home/mnepraj/ros2_ws/install/calculator_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/calculator_client build --build-base /home/mnepraj/ros2_ws/build/calculator_client/build install --record /home/mnepraj/ros2_ws/build/calculator_client/install.log --single-version-externally-managed install_data
+[1.450s] running egg_info
+[1.451s] creating ../../build/calculator_client/calculator_client.egg-info
+[1.468s] writing ../../build/calculator_client/calculator_client.egg-info/PKG-INFO
+[1.468s] writing dependency_links to ../../build/calculator_client/calculator_client.egg-info/dependency_links.txt
+[1.468s] writing entry points to ../../build/calculator_client/calculator_client.egg-info/entry_points.txt
+[1.469s] writing requirements to ../../build/calculator_client/calculator_client.egg-info/requires.txt
+[1.469s] writing top-level names to ../../build/calculator_client/calculator_client.egg-info/top_level.txt
+[1.469s] writing manifest file '../../build/calculator_client/calculator_client.egg-info/SOURCES.txt'
+[1.505s] reading manifest file '../../build/calculator_client/calculator_client.egg-info/SOURCES.txt'
+[1.505s] writing manifest file '../../build/calculator_client/calculator_client.egg-info/SOURCES.txt'
+[1.505s] running build
+[1.506s] running build_py
+[1.506s] creating /home/mnepraj/ros2_ws/build/calculator_client/build
+[1.506s] creating /home/mnepraj/ros2_ws/build/calculator_client/build/lib
+[1.507s] creating /home/mnepraj/ros2_ws/build/calculator_client/build/lib/calculator_client
+[1.507s] copying calculator_client/calculator_client.py -> /home/mnepraj/ros2_ws/build/calculator_client/build/lib/calculator_client
+[1.507s] copying calculator_client/__init__.py -> /home/mnepraj/ros2_ws/build/calculator_client/build/lib/calculator_client
+[1.507s] running install
+[1.514s] running install_lib
+[1.532s] creating /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client
+[1.532s] copying /home/mnepraj/ros2_ws/build/calculator_client/build/lib/calculator_client/calculator_client.py -> /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client
+[1.533s] copying /home/mnepraj/ros2_ws/build/calculator_client/build/lib/calculator_client/__init__.py -> /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client
+[1.533s] byte-compiling /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client/calculator_client.py to calculator_client.cpython-312.pyc
+[1.534s] byte-compiling /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client/__init__.py to __init__.cpython-312.pyc
+[1.534s] running install_data
+[1.535s] creating /home/mnepraj/ros2_ws/install/calculator_client/share/ament_index
+[1.535s] creating /home/mnepraj/ros2_ws/install/calculator_client/share/ament_index/resource_index
+[1.535s] creating /home/mnepraj/ros2_ws/install/calculator_client/share/ament_index/resource_index/packages
+[1.535s] copying resource/calculator_client -> /home/mnepraj/ros2_ws/install/calculator_client/share/ament_index/resource_index/packages
+[1.536s] copying package.xml -> /home/mnepraj/ros2_ws/install/calculator_client/share/calculator_client
+[1.536s] running install_egg_info
+[1.554s] Copying ../../build/calculator_client/calculator_client.egg-info to /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client-0.0.0-py3.12.egg-info
+[1.555s] running install_scripts
+[1.688s] Installing calculator_client script to /home/mnepraj/ros2_ws/install/calculator_client/lib/calculator_client
+[1.688s] writing list of installed files to '/home/mnepraj/ros2_ws/build/calculator_client/install.log'
+[1.738s] Invoked command in '/home/mnepraj/ros2_ws/src/calculator_client' returned '0': CMAKE_PREFIX_PATH=/home/mnepraj/ros2_ws/install/calculator_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mnepraj/ros2_ws/install/calculator_interfaces/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/x86_64-linux-gnu/pkgconfig:/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/pkgconfig PYTHONPATH=/home/mnepraj/ros2_ws/build/calculator_client/prefix_override:/home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_server/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/sensor_data_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages ROS_PACKAGE_PATH=/home/mnepraj/ros2_ws/install/calculator_interfaces/share /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/calculator_client build --build-base /home/mnepraj/ros2_ws/build/calculator_client/build install --record /home/mnepraj/ros2_ws/build/calculator_client/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/calculator_client/calculator_client.egg-info
+writing ../../build/calculator_client/calculator_client.egg-info/PKG-INFO
+writing dependency_links to ../../build/calculator_client/calculator_client.egg-info/dependency_links.txt
+writing entry points to ../../build/calculator_client/calculator_client.egg-info/entry_points.txt
+writing requirements to ../../build/calculator_client/calculator_client.egg-info/requires.txt
+writing top-level names to ../../build/calculator_client/calculator_client.egg-info/top_level.txt
+writing manifest file '../../build/calculator_client/calculator_client.egg-info/SOURCES.txt'
+reading manifest file '../../build/calculator_client/calculator_client.egg-info/SOURCES.txt'
+writing manifest file '../../build/calculator_client/calculator_client.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mnepraj/ros2_ws/build/calculator_client/build
+creating /home/mnepraj/ros2_ws/build/calculator_client/build/lib
+creating /home/mnepraj/ros2_ws/build/calculator_client/build/lib/calculator_client
+copying calculator_client/calculator_client.py -> /home/mnepraj/ros2_ws/build/calculator_client/build/lib/calculator_client
+copying calculator_client/__init__.py -> /home/mnepraj/ros2_ws/build/calculator_client/build/lib/calculator_client
+running install
+running install_lib
+creating /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client
+copying /home/mnepraj/ros2_ws/build/calculator_client/build/lib/calculator_client/calculator_client.py -> /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client
+copying /home/mnepraj/ros2_ws/build/calculator_client/build/lib/calculator_client/__init__.py -> /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client
+byte-compiling /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client/calculator_client.py to calculator_client.cpython-312.pyc
+byte-compiling /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/mnepraj/ros2_ws/install/calculator_client/share/ament_index
+creating /home/mnepraj/ros2_ws/install/calculator_client/share/ament_index/resource_index
+creating /home/mnepraj/ros2_ws/install/calculator_client/share/ament_index/resource_index/packages
+copying resource/calculator_client -> /home/mnepraj/ros2_ws/install/calculator_client/share/ament_index/resource_index/packages
+copying package.xml -> /home/mnepraj/ros2_ws/install/calculator_client/share/calculator_client
+running install_egg_info
+Copying ../../build/calculator_client/calculator_client.egg-info to /home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages/calculator_client-0.0.0-py3.12.egg-info
+running install_scripts
+Installing calculator_client script to /home/mnepraj/ros2_ws/install/calculator_client/lib/calculator_client
+writing list of installed files to '/home/mnepraj/ros2_ws/build/calculator_client/install.log'

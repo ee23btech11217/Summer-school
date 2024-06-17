@@ -1,0 +1,334 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (-) JobUnselected: {'identifier': 'calculator_client'}
+[0.000293] (-) JobUnselected: {'identifier': 'calculator_server'}
+[0.000321] (-) JobUnselected: {'identifier': 'sensor_data_pkg'}
+[0.000355] (calculator_interfaces) JobQueued: {'identifier': 'calculator_interfaces', 'dependencies': OrderedDict()}
+[0.000385] (calculator_interfaces) JobStarted: {'identifier': 'calculator_interfaces'}
+[0.011659] (calculator_interfaces) JobProgress: {'identifier': 'calculator_interfaces', 'progress': 'cmake'}
+[0.012166] (calculator_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/mnepraj/ros2_ws/src/calculator_interfaces', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/mnepraj/ros2_ws/install/calculator_interfaces'], 'cwd': '/home/mnepraj/ros2_ws/build/calculator_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mnepraj', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mnepraj', 'OLDPWD': '/home/mnepraj/ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2483', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mnepraj/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mnepraj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mnepraj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mnepraj:@/tmp/.ICE-unix/2428,unix/mnepraj:/tmp/.ICE-unix/2428', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ee0aa161_8588_46bb_a353_14b2d5015c37', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.76B2O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mnepraj/ros2_ws/install/calculator_server:/home/mnepraj/ros2_ws/install/calculator_client:/home/mnepraj/ros2_ws/install/calculator_interfaces:/home/mnepraj/ros2_ws/install/sensor_data_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mnepraj/ros2_ws/build/calculator_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mnepraj/ros2_ws/install/calculator_server/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/sensor_data_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099326] (-) TimerEvent: {}
+[0.142644] (calculator_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.199693] (-) TimerEvent: {}
+[0.290099] (calculator_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.299840] (-) TimerEvent: {}
+[0.319561] (calculator_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400103] (-) TimerEvent: {}
+[0.459180] (calculator_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.472559] (calculator_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.474189] (calculator_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.474889] (calculator_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.489763] (calculator_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500222] (-) TimerEvent: {}
+[0.600565] (-) TimerEvent: {}
+[0.640568] (calculator_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.653613] (calculator_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.653982] (calculator_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.654805] (calculator_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.661035] (calculator_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.0 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.700814] (-) TimerEvent: {}
+[0.801296] (-) TimerEvent: {}
+[0.867165] (calculator_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.901543] (-) TimerEvent: {}
+[1.002017] (-) TimerEvent: {}
+[1.015026] (calculator_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.025440] (calculator_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.096833] (calculator_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.102384] (-) TimerEvent: {}
+[1.153813] (calculator_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.2 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.202613] (-) TimerEvent: {}
+[1.303090] (-) TimerEvent: {}
+[1.403558] (-) TimerEvent: {}
+[1.503918] (-) TimerEvent: {}
+[1.604422] (-) TimerEvent: {}
+[1.704914] (-) TimerEvent: {}
+[1.805388] (-) TimerEvent: {}
+[1.905865] (-) TimerEvent: {}
+[1.999705] (calculator_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.006132] (-) TimerEvent: {}
+[2.106607] (-) TimerEvent: {}
+[2.207094] (-) TimerEvent: {}
+[2.307488] (-) TimerEvent: {}
+[2.407944] (-) TimerEvent: {}
+[2.508419] (-) TimerEvent: {}
+[2.608809] (-) TimerEvent: {}
+[2.647541] (calculator_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.708977] (-) TimerEvent: {}
+[2.809380] (-) TimerEvent: {}
+[2.909721] (-) TimerEvent: {}
+[3.010179] (-) TimerEvent: {}
+[3.110593] (-) TimerEvent: {}
+[3.211056] (-) TimerEvent: {}
+[3.311475] (-) TimerEvent: {}
+[3.411849] (-) TimerEvent: {}
+[3.481560] (calculator_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.487259] (calculator_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.512107] (-) TimerEvent: {}
+[3.612460] (-) TimerEvent: {}
+[3.693517] (calculator_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.712590] (-) TimerEvent: {}
+[3.813023] (-) TimerEvent: {}
+[3.913513] (-) TimerEvent: {}
+[4.013989] (-) TimerEvent: {}
+[4.114527] (-) TimerEvent: {}
+[4.215000] (-) TimerEvent: {}
+[4.313071] (calculator_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.315267] (-) TimerEvent: {}
+[4.374344] (calculator_interfaces) StdoutLine: {'line': b'-- Configuring done (4.3s)\n'}
+[4.411551] (calculator_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.414058] (calculator_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[4.414468] (calculator_interfaces) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[4.414601] (calculator_interfaces) StderrLine: {'line': b'\n'}
+[4.414719] (calculator_interfaces) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[4.414833] (calculator_interfaces) StderrLine: {'line': b'\n'}
+[4.414944] (calculator_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[4.415054] (calculator_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/mnepraj/ros2_ws/build/calculator_interfaces\n'}
+[4.415328] (-) TimerEvent: {}
+[4.423756] (calculator_interfaces) CommandEnded: {'returncode': 0}
+[4.425907] (calculator_interfaces) JobProgress: {'identifier': 'calculator_interfaces', 'progress': 'build'}
+[4.426008] (calculator_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mnepraj/ros2_ws/build/calculator_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/mnepraj/ros2_ws/build/calculator_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mnepraj', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mnepraj', 'OLDPWD': '/home/mnepraj/ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2483', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mnepraj/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mnepraj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mnepraj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mnepraj:@/tmp/.ICE-unix/2428,unix/mnepraj:/tmp/.ICE-unix/2428', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ee0aa161_8588_46bb_a353_14b2d5015c37', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.76B2O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mnepraj/ros2_ws/install/calculator_server:/home/mnepraj/ros2_ws/install/calculator_client:/home/mnepraj/ros2_ws/install/calculator_interfaces:/home/mnepraj/ros2_ws/install/sensor_data_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mnepraj/ros2_ws/build/calculator_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mnepraj/ros2_ws/install/calculator_server/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/sensor_data_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[4.497399] (calculator_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.511316] (calculator_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_calculator_interfaces\n'}
+[4.515465] (-) TimerEvent: {}
+[4.615943] (-) TimerEvent: {}
+[4.716354] (-) TimerEvent: {}
+[4.750701] (calculator_interfaces) StdoutLine: {'line': b'[  2%] Built target calculator_interfaces__rosidl_generator_type_description\n'}
+[4.754540] (calculator_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.755672] (calculator_interfaces) StdoutLine: {'line': b'creating calculator_interfaces.egg-info\n'}
+[4.765532] (calculator_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.773707] (calculator_interfaces) StdoutLine: {'line': b'writing calculator_interfaces.egg-info/PKG-INFO\n'}
+[4.774088] (calculator_interfaces) StdoutLine: {'line': b'writing dependency_links to calculator_interfaces.egg-info/dependency_links.txt\n'}
+[4.774322] (calculator_interfaces) StdoutLine: {'line': b'writing top-level names to calculator_interfaces.egg-info/top_level.txt\n'}
+[4.774489] (calculator_interfaces) StdoutLine: {'line': b"writing manifest file 'calculator_interfaces.egg-info/SOURCES.txt'\n"}
+[4.785017] (calculator_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.816484] (-) TimerEvent: {}
+[4.826168] (calculator_interfaces) StdoutLine: {'line': b"reading manifest file 'calculator_interfaces.egg-info/SOURCES.txt'\n"}
+[4.826841] (calculator_interfaces) StdoutLine: {'line': b"writing manifest file 'calculator_interfaces.egg-info/SOURCES.txt'\n"}
+[4.867142] (calculator_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_calculator_interfaces_egg\n'}
+[4.916732] (-) TimerEvent: {}
+[5.017213] (-) TimerEvent: {}
+[5.117630] (-) TimerEvent: {}
+[5.129526] (calculator_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/calculator_interfaces__rosidl_generator_c.dir/rosidl_generator_c/calculator_interfaces/srv/detail/calculator__description.c.o\x1b[0m\n'}
+[5.130098] (calculator_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/calculator_interfaces__rosidl_generator_c.dir/rosidl_generator_c/calculator_interfaces/srv/detail/calculator__functions.c.o\x1b[0m\n'}
+[5.130449] (calculator_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/calculator_interfaces__rosidl_generator_c.dir/rosidl_generator_c/calculator_interfaces/srv/detail/calculator__type_support.c.o\x1b[0m\n'}
+[5.158324] (calculator_interfaces) StdoutLine: {'line': b'[ 17%] Built target calculator_interfaces__cpp\n'}
+[5.217902] (-) TimerEvent: {}
+[5.276739] (calculator_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcalculator_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.318175] (-) TimerEvent: {}
+[5.331310] (calculator_interfaces) StdoutLine: {'line': b'[ 20%] Built target calculator_interfaces__rosidl_generator_c\n'}
+[5.346865] (calculator_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.347582] (calculator_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.348982] (calculator_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.349712] (calculator_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.350060] (calculator_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.350755] (calculator_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.418369] (-) TimerEvent: {}
+[5.518833] (-) TimerEvent: {}
+[5.619351] (-) TimerEvent: {}
+[5.719796] (-) TimerEvent: {}
+[5.758395] (calculator_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/calculator_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/calculator_interfaces/srv/calculator__type_support.cpp.o\x1b[0m\n'}
+[5.773397] (calculator_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/calculator_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/calculator_interfaces/srv/detail/calculator__type_support.cpp.o\x1b[0m\n'}
+[5.790035] (calculator_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/calculator_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/calculator_interfaces/srv/detail/calculator__type_support.c.o\x1b[0m\n'}
+[5.818193] (calculator_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/calculator_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/calculator_interfaces/srv/detail/dds_fastrtps/calculator__type_support.cpp.o\x1b[0m\n'}
+[5.819973] (-) TimerEvent: {}
+[5.858065] (calculator_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libcalculator_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.860599] (calculator_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/calculator_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/calculator_interfaces/srv/calculator__type_support.cpp.o\x1b[0m\n'}
+[5.918348] (calculator_interfaces) StdoutLine: {'line': b'[ 55%] Built target calculator_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.920069] (-) TimerEvent: {}
+[5.925831] (calculator_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcalculator_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.982842] (calculator_interfaces) StdoutLine: {'line': b'[ 58%] Built target calculator_interfaces__rosidl_typesupport_c\n'}
+[6.020283] (-) TimerEvent: {}
+[6.039354] (calculator_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/calculator_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/calculator_interfaces/srv/detail/calculator__type_support_c.cpp.o\x1b[0m\n'}
+[6.120434] (-) TimerEvent: {}
+[6.220895] (-) TimerEvent: {}
+[6.321403] (-) TimerEvent: {}
+[6.342958] (calculator_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcalculator_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.421606] (-) TimerEvent: {}
+[6.484700] (calculator_interfaces) StdoutLine: {'line': b'[ 64%] Built target calculator_interfaces__rosidl_typesupport_cpp\n'}
+[6.492395] (calculator_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcalculator_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.521786] (-) TimerEvent: {}
+[6.591526] (calculator_interfaces) StdoutLine: {'line': b'[ 67%] Built target calculator_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.622061] (-) TimerEvent: {}
+[6.722610] (-) TimerEvent: {}
+[6.823141] (-) TimerEvent: {}
+[6.851546] (calculator_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcalculator_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.923417] (-) TimerEvent: {}
+[6.944702] (calculator_interfaces) StdoutLine: {'line': b'[ 70%] Built target calculator_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.023552] (-) TimerEvent: {}
+[7.034129] (calculator_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libcalculator_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.123722] (-) TimerEvent: {}
+[7.136119] (calculator_interfaces) StdoutLine: {'line': b'[ 73%] Built target calculator_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.168286] (calculator_interfaces) StdoutLine: {'line': b'[ 73%] Built target calculator_interfaces\n'}
+[7.202086] (calculator_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.223887] (-) TimerEvent: {}
+[7.324312] (-) TimerEvent: {}
+[7.424737] (-) TimerEvent: {}
+[7.525125] (-) TimerEvent: {}
+[7.616555] (calculator_interfaces) StdoutLine: {'line': b'[ 76%] Built target calculator_interfaces__py\n'}
+[7.625402] (-) TimerEvent: {}
+[7.652786] (calculator_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/calculator_interfaces__rosidl_generator_py.dir/rosidl_generator_py/calculator_interfaces/srv/_calculator_s.c.o\x1b[0m\n'}
+[7.725702] (-) TimerEvent: {}
+[7.826224] (-) TimerEvent: {}
+[7.868158] (calculator_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libcalculator_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.926432] (-) TimerEvent: {}
+[7.928575] (calculator_interfaces) StdoutLine: {'line': b'[ 82%] Built target calculator_interfaces__rosidl_generator_py\n'}
+[7.964257] (calculator_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/calculator_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/calculator_interfaces/_calculator_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.964636] (calculator_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/calculator_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/calculator_interfaces/_calculator_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.964806] (calculator_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/calculator_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/calculator_interfaces/_calculator_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.026642] (-) TimerEvent: {}
+[8.109587] (calculator_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.111143] (calculator_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.126797] (-) TimerEvent: {}
+[8.155548] (calculator_interfaces) StdoutLine: {'line': b'[ 97%] Built target calculator_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[8.158090] (calculator_interfaces) StdoutLine: {'line': b'[ 97%] Built target calculator_interfaces_s__rosidl_typesupport_c\n'}
+[8.192408] (calculator_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.227070] (-) TimerEvent: {}
+[8.241220] (calculator_interfaces) StdoutLine: {'line': b'[100%] Built target calculator_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[8.260124] (calculator_interfaces) CommandEnded: {'returncode': 0}
+[8.327228] (-) TimerEvent: {}
+[8.427598] (-) TimerEvent: {}
+[8.442220] (calculator_interfaces) JobProgress: {'identifier': 'calculator_interfaces', 'progress': 'install'}
+[8.457359] (calculator_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mnepraj/ros2_ws/build/calculator_interfaces'], 'cwd': '/home/mnepraj/ros2_ws/build/calculator_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mnepraj', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mnepraj', 'OLDPWD': '/home/mnepraj/ros2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2483', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mnepraj/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mnepraj', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mnepraj', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mnepraj:@/tmp/.ICE-unix/2428,unix/mnepraj:/tmp/.ICE-unix/2428', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ee0aa161_8588_46bb_a353_14b2d5015c37', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.76B2O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mnepraj/ros2_ws/install/calculator_server:/home/mnepraj/ros2_ws/install/calculator_client:/home/mnepraj/ros2_ws/install/calculator_interfaces:/home/mnepraj/ros2_ws/install/sensor_data_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mnepraj/ros2_ws/build/calculator_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mnepraj/ros2_ws/install/calculator_server/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_client/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages:/home/mnepraj/ros2_ws/install/sensor_data_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[8.470131] (calculator_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.470594] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/ament_index/resource_index/rosidl_interfaces/calculator_interfaces\n'}
+[8.470770] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/srv/Calculator.json\n'}
+[8.471048] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces\n'}
+[8.471300] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv\n'}
+[8.471606] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/calculator.h\n'}
+[8.471760] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail\n'}
+[8.471901] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__description.c\n'}
+[8.472039] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__type_support.c\n'}
+[8.472173] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__struct.h\n'}
+[8.472852] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__type_support.h\n'}
+[8.473044] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__functions.h\n'}
+[8.473194] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__functions.c\n'}
+[8.473359] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/msg\n'}
+[8.473496] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.473633] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/environment/library_path.sh\n'}
+[8.473768] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/environment/library_path.dsv\n'}
+[8.473992] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_generator_c.so\n'}
+[8.474136] (calculator_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.474278] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces\n'}
+[8.474480] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv\n'}
+[8.474668] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail\n'}
+[8.474803] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__rosidl_typesupport_fastrtps_c.h\n'}
+[8.474937] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/msg\n'}
+[8.475071] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.475213] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.475353] (calculator_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.475490] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces\n'}
+[8.475623] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv\n'}
+[8.475754] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail\n'}
+[8.475887] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__type_support.c\n'}
+[8.476017] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__rosidl_typesupport_introspection_c.h\n'}
+[8.476148] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/msg\n'}
+[8.476293] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.476476] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.476610] (calculator_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.476743] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_c.so\n'}
+[8.476875] (calculator_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.477008] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces\n'}
+[8.477140] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv\n'}
+[8.477283] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/calculator.hpp\n'}
+[8.477519] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail\n'}
+[8.477653] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__traits.hpp\n'}
+[8.477785] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__type_support.hpp\n'}
+[8.478008] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__builder.hpp\n'}
+[8.478158] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__struct.hpp\n'}
+[8.478306] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/msg\n'}
+[8.478507] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.478636] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces\n'}
+[8.478764] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv\n'}
+[8.478890] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail\n'}
+[8.479018] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.479148] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/dds_fastrtps\n'}
+[8.479496] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/msg\n'}
+[8.479624] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.479708] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.479782] (calculator_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.479874] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces\n'}
+[8.479950] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv\n'}
+[8.480024] (calculator_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail\n'}
+[8.480096] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.480181] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/include/calculator_interfaces/calculator_interfaces/srv/detail/calculator__type_support.cpp\n'}
+[8.480268] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.480338] (calculator_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.480407] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.480478] (calculator_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.480545] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/environment/pythonpath.sh\n'}
+[8.480614] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/environment/pythonpath.dsv\n'}
+[8.480680] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces-0.0.0-py3.12.egg-info\n'}
+[8.480749] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[8.480817] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[8.480887] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[8.480954] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[8.481022] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces\n'}
+[8.481091] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/_calculator_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.481162] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/srv\n'}
+[8.481242] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/srv/_calculator_s.c\n'}
+[8.481312] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/srv/_calculator.py\n'}
+[8.481381] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/srv/__init__.py\n'}
+[8.481450] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_c.so\n'}
+[8.481520] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/_calculator_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.481587] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/_calculator_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.481656] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[8.481722] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.481789] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/__init__.py\n'}
+[8.527738] (-) TimerEvent: {}
+[8.535724] (calculator_interfaces) StdoutLine: {'line': b"Listing '/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces'...\n"}
+[8.535971] (calculator_interfaces) StdoutLine: {'line': b"Compiling '/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/__init__.py'...\n"}
+[8.536051] (calculator_interfaces) StdoutLine: {'line': b"Listing '/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/srv'...\n"}
+[8.536127] (calculator_interfaces) StdoutLine: {'line': b"Compiling '/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/srv/__init__.py'...\n"}
+[8.536233] (calculator_interfaces) StdoutLine: {'line': b"Compiling '/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/srv/_calculator.py'...\n"}
+[8.543776] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[8.544134] (calculator_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.544430] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[8.544635] (calculator_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.544765] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_c.so\n'}
+[8.545086] (calculator_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/python3.12/site-packages/calculator_interfaces/calculator_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[8.545229] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_generator_py.so\n'}
+[8.545889] (calculator_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mnepraj/ros2_ws/install/calculator_interfaces/lib/libcalculator_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.546213] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/srv/Calculator.idl\n'}
+[8.546375] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/srv/Calculator.srv\n'}
+[8.546611] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/ament_index/resource_index/package_run_dependencies/calculator_interfaces\n'}
+[8.546803] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/ament_index/resource_index/parent_prefix_path/calculator_interfaces\n'}
+[8.547066] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/environment/ament_prefix_path.sh\n'}
+[8.547316] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.547481] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/environment/path.sh\n'}
+[8.547630] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/environment/path.dsv\n'}
+[8.547832] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/local_setup.bash\n'}
+[8.547974] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/local_setup.sh\n'}
+[8.548123] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/local_setup.zsh\n'}
+[8.548336] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/local_setup.dsv\n'}
+[8.548482] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/package.dsv\n'}
+[8.548667] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/ament_index/resource_index/packages/calculator_interfaces\n'}
+[8.548854] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/export_calculator_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.549027] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/export_calculator_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.549235] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/export_calculator_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.549502] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/export_calculator_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.549689] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/calculator_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.549883] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/calculator_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.550115] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/calculator_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.550346] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/calculator_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.550556] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/export_calculator_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.550737] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/export_calculator_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.550939] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/export_calculator_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.551149] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/calculator_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.551408] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/calculator_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.551675] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/calculator_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.551851] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/calculator_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.552034] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/export_calculator_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.552311] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/export_calculator_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.552560] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.552823] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.553052] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.553272] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.553434] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.553615] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.553795] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.553986] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/calculator_interfacesConfig.cmake\n'}
+[8.554134] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/cmake/calculator_interfacesConfig-version.cmake\n'}
+[8.554316] (calculator_interfaces) StdoutLine: {'line': b'-- Installing: /home/mnepraj/ros2_ws/install/calculator_interfaces/share/calculator_interfaces/package.xml\n'}
+[8.558008] (calculator_interfaces) CommandEnded: {'returncode': 0}
+[8.627845] (-) TimerEvent: {}
+[8.668854] (calculator_interfaces) JobEnded: {'identifier': 'calculator_interfaces', 'rc': 0}
+[8.669997] (-) EventReactorShutdown: {}

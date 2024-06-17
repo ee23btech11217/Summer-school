@@ -1,0 +1,4 @@
+source;share/calculator_server/hook/pythonpath.dsv
+source;share/calculator_server/hook/pythonpath.sh
+source;share/calculator_server/hook/ament_prefix_path.dsv
+source;share/calculator_server/hook/ament_prefix_path.sh

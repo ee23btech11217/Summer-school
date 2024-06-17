@@ -1,0 +1,2 @@
+[console_scripts]
+calculator_client = calculator_client.calculator_client:main

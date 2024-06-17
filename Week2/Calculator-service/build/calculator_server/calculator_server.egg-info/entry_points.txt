@@ -1,0 +1,2 @@
+[console_scripts]
+calculator_server = calculator_server.calculator_server:main

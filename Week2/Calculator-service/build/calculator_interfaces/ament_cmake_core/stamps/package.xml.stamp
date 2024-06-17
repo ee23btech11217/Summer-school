@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>calculator_interfaces</name>
+  <version>0.0.0</version>
+  <description>Interfaces for calculator service</description>
+  <maintainer email="mnepraj@gmail.com">Prajwal M</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+</package>
+

@@ -1,0 +1,41 @@
+[0.981s] Invoking command in '/home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/src/sensor_data_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/prefix_override:/home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sensor_data_pkg build --build-base /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/build install --record /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/install.log --single-version-externally-managed install_data
+[1.255s] running egg_info
+[1.256s] creating ../../build/sensor_data_pkg/sensor_data_pkg.egg-info
+[1.272s] writing ../../build/sensor_data_pkg/sensor_data_pkg.egg-info/PKG-INFO
+[1.272s] writing dependency_links to ../../build/sensor_data_pkg/sensor_data_pkg.egg-info/dependency_links.txt
+[1.272s] writing entry points to ../../build/sensor_data_pkg/sensor_data_pkg.egg-info/entry_points.txt
+[1.272s] writing requirements to ../../build/sensor_data_pkg/sensor_data_pkg.egg-info/requires.txt
+[1.272s] writing top-level names to ../../build/sensor_data_pkg/sensor_data_pkg.egg-info/top_level.txt
+[1.272s] writing manifest file '../../build/sensor_data_pkg/sensor_data_pkg.egg-info/SOURCES.txt'
+[1.305s] reading manifest file '../../build/sensor_data_pkg/sensor_data_pkg.egg-info/SOURCES.txt'
+[1.306s] writing manifest file '../../build/sensor_data_pkg/sensor_data_pkg.egg-info/SOURCES.txt'
+[1.306s] running build
+[1.306s] running build_py
+[1.306s] creating /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/build
+[1.306s] creating /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/build/lib
+[1.306s] creating /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/build/lib/sensor_data_pkg
+[1.306s] copying sensor_data_pkg/temperature_publisher.py -> /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/build/lib/sensor_data_pkg
+[1.306s] copying sensor_data_pkg/temperature_subscriber.py -> /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/build/lib/sensor_data_pkg
+[1.307s] copying sensor_data_pkg/__init__.py -> /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/build/lib/sensor_data_pkg
+[1.307s] running install
+[1.315s] running install_lib
+[1.332s] creating /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/python3.12/site-packages/sensor_data_pkg
+[1.332s] copying /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/build/lib/sensor_data_pkg/temperature_publisher.py -> /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/python3.12/site-packages/sensor_data_pkg
+[1.332s] copying /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/build/lib/sensor_data_pkg/temperature_subscriber.py -> /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/python3.12/site-packages/sensor_data_pkg
+[1.333s] copying /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/build/lib/sensor_data_pkg/__init__.py -> /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/python3.12/site-packages/sensor_data_pkg
+[1.333s] byte-compiling /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/python3.12/site-packages/sensor_data_pkg/temperature_publisher.py to temperature_publisher.cpython-312.pyc
+[1.334s] byte-compiling /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/python3.12/site-packages/sensor_data_pkg/temperature_subscriber.py to temperature_subscriber.cpython-312.pyc
+[1.334s] byte-compiling /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/python3.12/site-packages/sensor_data_pkg/__init__.py to __init__.cpython-312.pyc
+[1.334s] running install_data
+[1.335s] creating /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/share/ament_index
+[1.335s] creating /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/share/ament_index/resource_index
+[1.335s] creating /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/share/ament_index/resource_index/packages
+[1.335s] copying resource/sensor_data_pkg -> /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/share/ament_index/resource_index/packages
+[1.335s] copying package.xml -> /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/share/sensor_data_pkg
+[1.335s] running install_egg_info
+[1.353s] Copying ../../build/sensor_data_pkg/sensor_data_pkg.egg-info to /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/python3.12/site-packages/sensor_data_pkg-0.0.0-py3.12.egg-info
+[1.354s] running install_scripts
+[1.476s] Installing temperature_publisher script to /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/sensor_data_pkg
+[1.477s] Installing temperature_subscriber script to /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/sensor_data_pkg
+[1.477s] writing list of installed files to '/home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/install.log'
+[1.512s] Invoked command in '/home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/src/sensor_data_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/prefix_override:/home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/install/sensor_data_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sensor_data_pkg build --build-base /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/build install --record /home/mnepraj/Summer-school/Week2/Temperature-publisher-subscriber/build/sensor_data_pkg/install.log --single-version-externally-managed install_data

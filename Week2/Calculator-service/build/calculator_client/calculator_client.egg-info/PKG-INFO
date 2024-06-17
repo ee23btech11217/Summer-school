@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: calculator-client
+Version: 0.0.0
+Summary: Calculator service client
+Maintainer: Prajwal M
+Maintainer-email: mnepraj@gmail.com
+License: Apache License 2.0
